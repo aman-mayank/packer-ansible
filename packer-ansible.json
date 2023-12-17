@@ -30,7 +30,7 @@
         "ssh_username": "{{user `ssh_username`}}",
         "ami_name": "{{user `ami_target_name`}}-{{isotime \"2006-01-02\"}}",
         "vpc_id": "vpc-05eff7b166435d1b3",
-        "subnet_id": "subnet-0e072451cf4d8ba73",
+        "subnet_id": "subnet-082b060946eb5be38",
         "ssh_pty": "true",
         "tags": {
           "Product": "sales",
