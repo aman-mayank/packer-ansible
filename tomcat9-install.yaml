@@ -10,7 +10,7 @@
      - name:
        debug: var=tomcat_url
      - name: install java 1.8 version 
-       yum:
+       apt:
          name: "{{java_version}}"
          state: present
      - name: tomcat group creation
